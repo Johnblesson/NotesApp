@@ -36,7 +36,7 @@ const MainPage = ({ availableTags, notes }: MainProps) => {
     <div className="container py-5">
       {/* title */}
       <Stack direction="horizontal" className="justify-content-between">
-        <h1>Notes</h1>
+        <h1>Smart Notepad</h1>
 
         <Link to={"/new"}>
           <Button>Create</Button>
